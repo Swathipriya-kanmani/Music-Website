@@ -1,0 +1,123 @@
+body{
+    position: relative;
+    background: url('https://png.pngtree.com/background/20211217/original/pngtree-note-purple-musical-notation-smudges-the-background-picture-image_1589090.jpg');
+    font-family: cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    position: absolute;
+    top: 85px;
+    left: 415px;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+h2{
+    position: absolute;
+    top: 145px;
+    left: 712px;
+    font-size: 34px;
+}
+
+a{
+    position: absolute;
+    padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+    top: 225px;
+    left: 665px;
+	transition: all .5s ease;
+}
+/* a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  } */
+  
+.btnone{
+	/*background: #00b894;*/
+	background: #fff;
+	color: #c919a0;
+    left: 465px;
+    top: 176px;
+}
+
+.btnone:hover{
+	background: #cf08e9;
+	color: white;
+}
+
+.btntwo{
+	background: #cf08e9;
+	color: white;
+    left: 811px;
+    top: 175px;
+}	
+
+.btntwo:hover{
+	background: #fff;
+	color: #cf08e9;
+}
+
+.container{
+  width: 200px;
+  height: 200px;
+}
+
+.container img{
+  position: absolute;
+  width: 490px;
+  height: 300px;
+  top: 248px;
+  left: 446px;
+  box-shadow: 12px;
+}
+
+
+
+.anime{
+  animation: letter 2s linear infinite;
+}
+
+
+@keyframes letter {
+  0%{ 
+    transform:  scale(1);
+  }
+  20%{ 
+    transform:  scale(1);
+  }
+  40%{ 
+    transform:  scale(1.4);
+  }
+  60%{ 
+    transform:  scale(1.2);
+  }
+  80%{ 
+    transform:  scale(1);
+  }
+  100%{ 
+    transform:  scale(1);
+  }
+}
+
+
+
+

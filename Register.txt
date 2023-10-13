@@ -1,0 +1,63 @@
+const button = document.getElementsByClassName("buttton");
+button.onclick = () => {
+
+
+
+    //all input data recieved this variables
+    const fname = document.getElementById("fname");
+    value;
+    const lname = document.getElementById("lname");
+    value;
+    const email = document.getElementById("email");
+    value;
+    const phno = document.getElementById("phno");
+    value;
+    const pass = document.getElementById("pass");
+    value;
+    const cpass = document.getElementById("cpass");
+    value;
+    const otp = document.getElementById("otp");
+    value;
+    const cappucha = document.getElementById("cappucha");
+    value;
+    const dot1 = document.getElementById("dot-1");
+    value;
+    const dot2 = document.getElementById("dot-2");
+    value;
+    const dot3 = document.getElementById("dot-3");
+    value;
+
+
+// now store this data in your web browser store
+  localStorage.setItem('FirstName', fname);
+  localStorage.setItem('LastName', lname);
+  localStorage.setItem('Email', email);
+  localStorage.setItem('PhoneNumber', phno);
+  localStorage.setItem('Password', pass);
+  localStorage.setItem('Cpassword', cpass);
+  localStorage.setItem('OTP', otp);
+  localStorage.setItem('Captcha', cappucha);
+  localStorage.setItem('RadioButton1', dot-1);
+  localStorage.setItem('RadioButton2', dot-2);
+  localStorage.setItem('RadioButton3', dot-3);
+
+
+
+
+//now write some condition
+if(fname == "" && lname == "" && email == "" && phno =="" && pass == "" && cpass == "" && otp == "" && cappucha == "" && dot-1 == "" && dot-2 == "" && dot-3 == ""){
+    alert("Input field has no value");
+}
+else
+{
+    if(pass !== cpass){
+        alert("password not matching");
+    }else{
+        alert("Registeration Successful");
+    }
+}
+}
+
+
+
+
